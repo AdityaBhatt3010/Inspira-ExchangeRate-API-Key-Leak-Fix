@@ -24,7 +24,7 @@ public class Buy extends JFrame implements ActionListener {
     private Map<JLabel, Double> priceLabelsMap; // Store labels and their base prices
 
     // API Details
-    private static final String API_KEY = "e8c523c29f1585eb81dfcd2a"; // Replace with your ExchangeRate-API key,Yoou can get this by visiting the website for Exchange rate API
+    private static final String API_KEY = "************************"; // Replace with your ExchangeRate-API key, You can get this by visiting the website for Exchange rate API
     private static final String API_URL = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/latest/INR";
 
     public Buy(String username) {
